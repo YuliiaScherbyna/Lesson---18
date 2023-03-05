@@ -9,5 +9,5 @@ alert(`You have extra bonus! Your total salary was: ${salary3}$  it's increased 
 let minSalary = 2000;
 // result = salary3 + bonus >= minSalary;
 // alert(`Will you work next? ${result} `); завдання номер 3
-let result = salary3 + bonus >= minSalary ? "Ready to work" : "I'm out";
+let result = salary3 + bonus >= minSalary ? "I'm ready to work" : "I'm out";
 alert(result);
