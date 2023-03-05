@@ -7,7 +7,4 @@ alert(`Your month salary : ${salary3}`);
 let bonus = 1;
 alert(`You have extra bonus! Your total salary was: ${salary3}$  it's increased for ${bonus}$ and now it is: ${salary3 + bonus}$`);
 let minSalary = 2000;
-// result = salary3 + bonus >= minSalary;
-// alert(`Will you work next? ${result} `); завдання номер 3
-let result = salary3 + bonus >= minSalary ? "I'm ready to work" : "I'm out";
-alert(result);
+alert(salary3 + bonus >= minSalary && "I'm ready to work" || salary3 + bonus <= minSalary && "I'm out"); 
